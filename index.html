@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="inputItem">
+        <h1>Please input items you want to buy in the label below.</h1>
+        <div class="form-group">
+          <label for="item1">1st item:</label>
+          <input id="item1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item2">2nd item:</label>
+          <input id="item2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item3">3rd item:</label>
+          <input id="item3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item4">4th item:</label>
+          <input id="item4" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item5">5th item:</label>
+          <input id="item5" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Add to your shopping list!</button>
+      </form>
+      <div class="shoppingList">
+        <h1>This is your shopping list:</h1>
+        <ul>
+          <li id="shoppingItem"></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
