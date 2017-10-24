@@ -13,31 +13,17 @@
       <form id="inputItem">
         <h1>Please input items you want to buy in the label below.</h1>
         <div class="form-group">
-          <label for="item1">1st item:</label>
-          <input id="item1" class="form-control" type="text">
+          <label for="item">Please enter your item:</label>
+          <input id="item" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="item2">2nd item:</label>
-          <input id="item2" class="form-control" type="text">
+        <div>
+          <button type="button" class="btn" id="addItem">Add item to your list</button>
         </div>
-        <div class="form-group">
-          <label for="item3">3rd item:</label>
-          <input id="item3" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="item4">4th item:</label>
-          <input id="item4" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="item5">5th item:</label>
-          <input id="item5" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Add to your shopping list!</button>
+        <button type="submit" class="btn btn-danger">Submit your list!</button>
       </form>
       <div class="shoppingList">
         <h1>This is your shopping list:</h1>
-        <ul>
-          <li id="shoppingItem"></li>
+        <ul id="shoppingItem">
         </ul>
       </div>
     </div>
